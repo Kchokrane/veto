@@ -14,9 +14,7 @@ import com.gestionRDV.dao.LoginRequests;
 import com.gestionRDV.dao.UserInfo;
 import com.gestionRDV.dao.loadData;
 
-/**
- * Servlet implementation class login
- */
+
 @WebServlet("/login")
 public class login extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -30,7 +30,7 @@ public class UserInfo {
 				else {
 					return null;
 				}
-				//Admin user = (Admin) session.get(Admin.class, username);
+				Admin user = (Admin) session.get(Admin.class, username);
 				
 			} catch (Exception exception) {
 				System.out.println("Exception occred while reading user data: " + exception.getMessage());
